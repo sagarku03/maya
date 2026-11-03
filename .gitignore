@@ -1,0 +1,12 @@
+# Build & IDE artifacts
+.gradle/
+build/
+*.apk
+*.aab
+.idea/
+*.iml
+.vscode/
+
+# OS specific
+.DS_Store
+Thumbs.db

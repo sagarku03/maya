@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="settings_core_adv_char_elsewhere">
+        <item quantity="one">%1$s has a character too. Switch persona in Settings to see it.</item>
+        <item quantity="other">%1$s have a character too. Switch persona in Settings to see them.</item>
+    </plurals>
+    <plurals name="settings_core_battery_line_proactive">
+        <item quantity="one">Proactive check-ins are off, and a quiet session goes to standby after %1$s minute at most.</item>
+        <item quantity="other">Proactive check-ins are off, and a quiet session goes to standby after %1$s minutes at most.</item>
+    </plurals>
+    <plurals name="settings_safety_autoreply_summary_replies">
+        <item quantity="one">%1$s replies to %2$s person</item>
+        <item quantity="other">%1$s replies to %2$s people</item>
+    </plurals>
+    <plurals name="settings_safety_backup_sharing">
+        <item quantity="one">Sharing %1$s item…</item>
+        <item quantity="other">Sharing %1$s items…</item>
+    </plurals>
+    <plurals name="settings_safety_contacts_n_selected">
+        <item quantity="one">%1$s selected. Selections survive a new search.</item>
+        <item quantity="other">%1$s selected. Selections survive a new search.</item>
+    </plurals>
+    <plurals name="settings_safety_faces_pill_saved">
+        <item quantity="one">%1$s saved</item>
+        <item quantity="other">%1$s saved</item>
+    </plurals>
+    <plurals name="settings_safety_faces_views">
+        <item quantity="one">%1$s view</item>
+        <item quantity="other">%1$s views</item>
+    </plurals>
+    <plurals name="settings_safety_ffeat_gallery_count">
+        <item quantity="one">%1$s photo</item>
+        <item quantity="other">%1$s photos</item>
+    </plurals>
+    <plurals name="settings_safety_ffeat_gallery_scan">
+        <item quantity="one">Scan %1$s photo</item>
+        <item quantity="other">Scan %1$s photos</item>
+    </plurals>
+    <plurals name="settings_safety_flset_apps_locked">
+        <item quantity="one">%1$s app locked</item>
+        <item quantity="other">%1$s apps locked</item>
+    </plurals>
+    <plurals name="settings_safety_photos_count_newest">
+        <item quantity="one">%1$s photo · newest first</item>
+        <item quantity="other">%1$s photos · newest first</item>
+    </plurals>
+    <plurals name="settings_safety_photos_pending">
+        <item quantity="one">%1$s photo not checked yet (the newest %2$s are searched).</item>
+        <item quantity="other">%1$s photos not checked yet (the newest %2$s are searched).</item>
+    </plurals>
+    <plurals name="settings_safety_skills_available">
+        <item quantity="one">%1$s skill available</item>
+        <item quantity="other">%1$s skills available</item>
+    </plurals>
+    <plurals name="settings_safety_sos_bulk_added">
+        <item quantity="one">%1$s contact added as a favorite. Tap Edit on it to make it an SOS contact.</item>
+        <item quantity="other">%1$s contacts added as favorites. Tap Edit on any to make it an SOS contact.</item>
+    </plurals>
+    <plurals name="settings_safety_touchguard_photos_count">
+        <item quantity="one">%1$s photo, one second apart, taken before any sound. Saved to Pictures/Maya.</item>
+        <item quantity="other">%1$s photos, one second apart, taken before any sound. Saved to Pictures/Maya.</item>
+    </plurals>
+    <plurals name="settings_safety_watchman_alerts">
+        <item quantity="one">%1$s alert</item>
+        <item quantity="other">%1$s alerts</item>
+    </plurals>
+    <plurals name="settings_safety_watchman_alerts_last">
+        <item quantity="one">%1$s alert · last: %2$s</item>
+        <item quantity="other">%1$s alerts · last: %2$s</item>
+    </plurals>
+    <plurals name="settings_safety_watchman_faces">
+        <item quantity="one">%1$s face in view</item>
+        <item quantity="other">%1$s faces in view</item>
+    </plurals>
+    <plurals name="settings_voice_diag_waiting">
+        <item quantity="one">%1$s item waiting to send.</item>
+        <item quantity="other">%1$s items waiting to send.</item>
+    </plurals>
+    <plurals name="settings_voice_episodic_entries">
+        <item quantity="one">%1$s entry · %2$s KB</item>
+        <item quantity="other">%1$s entries · %2$s KB</item>
+    </plurals>
+    <plurals name="settings_voice_free_used">
+        <item quantity="one">%1$s test request used</item>
+        <item quantity="other">%1$s test requests used</item>
+    </plurals>
+    <plurals name="settings_voice_guardian_suggest">
+        <item quantity="one">%1$s test: %2$s–%3$s%%. Suggested strictness %4$s (yours is %5$s)</item>
+        <item quantity="other">%1$s tests: %2$s–%3$s%%. Suggested strictness %4$s (yours is %5$s)</item>
+    </plurals>
+    <plurals name="settings_voice_guardian_suggest_strict">
+        <item quantity="one">%1$s test: %2$s–%3$s%%. Suggested strictness %4$s (yours is %5$s — a bit strict)</item>
+        <item quantity="other">%1$s tests: %2$s–%3$s%%. Suggested strictness %4$s (yours is %5$s — a bit strict)</item>
+    </plurals>
+    <plurals name="settings_voice_hunter_found_incomplete">
+        <item quantity="one">A voice pack in %1$s is not complete: %2$s of its files is missing.</item>
+        <item quantity="other">A voice pack in %1$s is not complete: %2$s of its files are missing.</item>
+    </plurals>
+    <plurals name="settings_voice_mouth_lag_replies">
+        <item quantity="one">%1$s reply</item>
+        <item quantity="other">last %1$s replies</item>
+    </plurals>
+    <plurals name="shell_chat_convo_meta">
+        <item quantity="one">%1$s · %2$s message</item>
+        <item quantity="other">%1$s · %2$s messages</item>
+    </plurals>
+    <plurals name="shell_comp_engine_body">
+        <item quantity="one">Google&apos;s voice server keeps dropping Maya right now. Your network and phone are fine. Switch to the backup engine for %1$s minute?</item>
+        <item quantity="other">Google&apos;s voice server keeps dropping Maya right now. Your network and phone are fine. Switch to the backup engine for %1$s minutes?</item>
+    </plurals>
+    <plurals name="shell_conn_days_ago">
+        <item quantity="one">%1$s day ago</item>
+        <item quantity="other">%1$s days ago</item>
+    </plurals>
+    <plurals name="shell_notices_count">
+        <item quantity="one">%1$s notification</item>
+        <item quantity="other">%1$s notifications</item>
+    </plurals>
+    <plurals name="shell_notices_days_ago">
+        <item quantity="one">%1$s day ago</item>
+        <item quantity="other">%1$s days ago</item>
+    </plurals>
+    <plurals name="shell_notices_hours_ago">
+        <item quantity="one">%1$s hour ago</item>
+        <item quantity="other">%1$s hours ago</item>
+    </plurals>
+    <plurals name="shell_notices_minutes_ago">
+        <item quantity="one">%1$s min ago</item>
+        <item quantity="other">%1$s min ago</item>
+    </plurals>
+    <plurals name="shell_notices_weeks_ago">
+        <item quantity="one">%1$s week ago</item>
+        <item quantity="other">%1$s weeks ago</item>
+    </plurals>
+    <plurals name="shell_yaad_steps">
+        <item quantity="one">%1$s step</item>
+        <item quantity="other">%1$s steps</item>
+    </plurals>
+    <plurals name="shell_yaad_wipe_body">
+        <item quantity="one">This deletes the %1$s fact Maya has learned about you. Your trained tasks stay.</item>
+        <item quantity="other">This deletes all %1$s facts Maya has learned about you. Your trained tasks stay.</item>
+    </plurals>
+    <plurals name="shell_yaad_wipe_body_last">
+        <item quantity="one">Last chance. Your %1$s memory will be gone and Maya will start from nothing. Export a backup first if you might want it back.</item>
+        <item quantity="other">Last chance. All %1$s memories will be gone and Maya will start from nothing. Export a backup first if you might want them back.</item>
+    </plurals>
+    <plurals name="system_faces_photos_found">
+        <item quantity="one">%1$s photo found in your gallery</item>
+        <item quantity="other">%1$s photos found in your gallery</item>
+    </plurals>
+    <plurals name="system_mkt_followups_title">
+        <item quantity="one">%1$s follow-up due</item>
+        <item quantity="other">%1$s follow-ups due</item>
+    </plurals>
+    <plurals name="system_mkt_ideas_title">
+        <item quantity="one">%1$s content idea ready today</item>
+        <item quantity="other">%1$s content ideas ready today</item>
+    </plurals>
+    <plurals name="toolsui_code_file_count">
+        <item quantity="one">%1$s file</item>
+        <item quantity="other">%1$s files</item>
+    </plurals>
+    <plurals name="toolsui_home_channels_n">
+        <item quantity="one">%1$s channel</item>
+        <item quantity="other">%1$s channels</item>
+    </plurals>
+    <plurals name="toolsui_market_alerts_armed">
+        <item quantity="one">%1$s alert armed</item>
+        <item quantity="other">%1$s alerts armed</item>
+    </plurals>
+    <plurals name="toolsui_mkt_days_old">
+        <item quantity="one">%1$s day old</item>
+        <item quantity="other">%1$s days old</item>
+    </plurals>
+    <plurals name="toolsui_num_straddling">
+        <item quantity="one">%1$s entry not counted here — its period does not fit inside this one: %2$s</item>
+        <item quantity="other">%1$s entries not counted here — their periods do not fit inside this one: %2$s</item>
+    </plurals>
+    <plurals name="toolsui_sites_entries">
+        <item quantity="one">%1$s entry</item>
+        <item quantity="other">%1$s entries</item>
+    </plurals>
+    <plurals name="toolsui_sites_form_entries">
+        <item quantity="one">%1$s form entry</item>
+        <item quantity="other">%1$s form entries</item>
+    </plurals>
+    <plurals name="toolsui_time_days_ago">
+        <item quantity="one">%1$s day ago</item>
+        <item quantity="other">%1$s days ago</item>
+    </plurals>
+    <plurals name="toolsui_time_hours_ago">
+        <item quantity="one">%1$s hour ago</item>
+        <item quantity="other">%1$s hours ago</item>
+    </plurals>
+    <plurals name="toolsui_time_minutes_ago">
+        <item quantity="one">%1$s minute ago</item>
+        <item quantity="other">%1$s minutes ago</item>
+    </plurals>
+</resources>

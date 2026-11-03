@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="237"
+    android:versionName="5.2.48"
+    android:compileSdkVersion="34"
+    android:compileSdkVersionCodename="14"
+    package="com.getmaya.android"
+    platformBuildVersionCode="34"
+    platformBuildVersionName="14">
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="34"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_SCAN"
+        android:usesPermissionFlags="neverForLocation"/>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        android:maxSdkVersion="30"/>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        android:maxSdkVersion="30"/>
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="false"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED"/>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CAMERA"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="com.huntercode.mobile.permission.MAYA_BRIDGE"/>
+    <uses-permission android:name="com.termux.permission.RUN_COMMAND"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="true"/>
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="false"/>
+    <queries>
+        <package android:name="com.whatsapp"/>
+        <package android:name="com.whatsapp.w4b"/>
+        <package android:name="com.google.android.youtube"/>
+        <package android:name="com.google.android.apps.youtube.music"/>
+        <package android:name="com.gaana"/>
+        <package android:name="com.android.chrome"/>
+        <package android:name="com.huntercode.mobile"/>
+        <package android:name="com.spotify.music"/>
+        <package android:name="com.termux"/>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
+        </intent>
+        <intent>
+            <action android:name="android.speech.RecognitionService"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SENDTO"/>
+            <data android:scheme="mailto"/>
+        </intent>
+    </queries>
+    <permission
+        android:name="com.getmaya.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.getmaya.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <application
+        android:theme="@style/Theme.Maya"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:name="com.getmaya.android.MayaApplication"
+        android:allowBackup="false"
+        android:supportsRtl="true"
+        android:extractNativeLibs="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules">
+        <activity
+            android:name="com.getmaya.android.MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="audio/*"/>
+                <data android:mimeType="application/ogg"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.getmaya.android.ui.facelock.WatchmanActivity"
+            android:exported="false"
+            android:taskAffinity="com.getmaya.android.watchman"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.getmaya.android.ui.browser.BrowserActivity"
+            android:exported="false"
+            android:taskAffinity="com.getmaya.android.browser"
+            android:launchMode="singleTask"
+            android:configChanges="fontScale|density|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.getmaya.android.ui.facelock.FaceLockActivity"
+            android:exported="false"
+            android:taskAffinity="com.getmaya.android.facelock"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.getmaya.android.termux.TermuxPermissionActivity"
+            android:exported="false"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.getmaya.android.ui.UnlockActivity"
+            android:exported="false"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:noHistory="true"
+            android:showWhenLocked="true"
+            android:turnScreenOn="true"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.getmaya.android.assistant.MayaAssistActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service
+            android:label="@string/app_name"
+            android:name="com.getmaya.android.assistant.MayaVoiceInteractionService"
+            android:permission="android.permission.BIND_VOICE_INTERACTION"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.voice.VoiceInteractionService"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.voice_interaction"
+                android:resource="@xml/interaction_service"/>
+        </service>
+        <service
+            android:name="com.getmaya.android.assistant.MayaVoiceInteractionSessionService"
+            android:permission="android.permission.BIND_VOICE_INTERACTION"
+            android:exported="true"/>
+        <service
+            android:label="@string/app_name"
+            android:name="com.getmaya.android.assistant.MayaRecognitionService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.speech.RecognitionService"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.speech"
+                android:resource="@xml/recognition_service"/>
+        </service>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.getmaya.android.connectors.OAuthRedirectActivity"
+            android:exported="true"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="com.getmaya.android.oauth"/>
+                <data android:scheme="com.googleusercontent.apps.994106688046-mc0kjd0u5no7kl1sndvam504a0uhalur"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.getmaya.android.ui.ScreenCapturePermissionActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"/>
+        <service
+            android:name="com.getmaya.android.core.MayaForegroundService"
+            android:exported="false"
+            android:foregroundServiceType="microphone|camera|mediaProjection|dataSync"/>
+        <service
+            android:label="@string/app_name"
+            android:name="com.getmaya.android.automation.MayaAccessibilityService"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibility_service_config"/>
+        </service>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:authorities="com.getmaya.android.fileprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+        <receiver
+            android:name="com.getmaya.android.core.ReminderReceiver"
+            android:exported="false"/>
+        <receiver
+            android:name="com.getmaya.android.social.SocialAlarmReceiver"
+            android:exported="false"/>
+        <receiver
+            android:name="com.getmaya.android.marketing.MarketingAlarmReceiver"
+            android:exported="false"/>
+        <receiver
+            android:name="com.getmaya.android.termux.TermuxResultReceiver"
+            android:exported="false"/>
+        <receiver
+            android:name="com.getmaya.android.core.PhoneStateReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.getmaya.android.core.DrivingOffReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.getmaya.android.DRIVING_OFF"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.getmaya.android.core.MicCaptureReceiver"
+            android:permission="android.permission.DUMP"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.getmaya.android.CAPTURE_MIC"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.getmaya.android.core.BootReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:label="@string/system_notif_listener_label"
+            android:name="com.getmaya.android.automation.MayaNotificationListener"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService"/>
+            </intent-filter>
+        </service>
+        <service
+            android:label="@string/system_wallpaper_label"
+            android:name="com.getmaya.android.wallpaper.MayaWallpaperService"
+            android:permission="android.permission.BIND_WALLPAPER"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/maya_wallpaper"/>
+        </service>
+        <service
+            android:name="androidx.camera.core.impl.MetadataHolderService"
+            android:enabled="false"
+            android:exported="false">
+            <meta-data
+                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider"/>
+        </service>
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:exported="false"
+            android:authorities="com.getmaya.android.androidx-startup">
+            <meta-data
+                android:name="androidx.work.WorkManagerInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup"/>
+        </provider>
+        <service
+            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="@bool/enable_system_job_service_default"
+            android:exported="true"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:enabled="@bool/enable_system_foreground_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+            android:exported="false"
+            android:directBootAware="true">
+            <meta-data
+                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <provider
+            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+            android:exported="false"
+            android:authorities="com.getmaya.android.mlkitinitprovider"
+            android:initOrder="99"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false"
+            android:directBootAware="true"/>
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false">
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct"/>
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false"/>
+    </application>
+</manifest>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="settings_core_adv_char_elsewhere">
+        <item quantity="one">%1$s का भी एक कैरेक्टर है। देखने के लिए सेटिंग्स में पर्सोना बदलें।</item>
+        <item quantity="other">%1$s के भी कैरेक्टर हैं। देखने के लिए सेटिंग्स में पर्सोना बदलें।</item>
+    </plurals>
+    <plurals name="settings_core_battery_line_proactive">
+        <item quantity="one">प्रोएक्टिव चेक-इन बंद, और शांत सेशन ज़्यादा से ज़्यादा %1$s मिनट बाद स्टैंडबाय में चला जाता है।</item>
+        <item quantity="other">प्रोएक्टिव चेक-इन बंद, और शांत सेशन ज़्यादा से ज़्यादा %1$s मिनट बाद स्टैंडबाय में चला जाता है।</item>
+    </plurals>
+    <plurals name="settings_safety_autoreply_summary_replies">
+        <item quantity="one">%1$s जवाब, %2$s इंसान को</item>
+        <item quantity="other">%1$s जवाब, %2$s लोगों को</item>
+    </plurals>
+    <plurals name="settings_safety_backup_sharing">
+        <item quantity="one">%1$s आइटम शेयर हो रहा है…</item>
+        <item quantity="other">%1$s आइटम शेयर हो रहे हैं…</item>
+    </plurals>
+    <plurals name="settings_safety_contacts_n_selected">
+        <item quantity="one">%1$s चुना गया। नई खोज में भी चुनाव बना रहता है।</item>
+        <item quantity="other">%1$s चुने गए। नई खोज में भी चुनाव बना रहता है।</item>
+    </plurals>
+    <plurals name="settings_safety_faces_pill_saved">
+        <item quantity="one">%1$s सेव</item>
+        <item quantity="other">%1$s सेव</item>
+    </plurals>
+    <plurals name="settings_safety_faces_views">
+        <item quantity="one">%1$s व्यू</item>
+        <item quantity="other">%1$s व्यू</item>
+    </plurals>
+    <plurals name="settings_safety_ffeat_gallery_count">
+        <item quantity="one">%1$s फ़ोटो</item>
+        <item quantity="other">%1$s फ़ोटो</item>
+    </plurals>
+    <plurals name="settings_safety_ffeat_gallery_scan">
+        <item quantity="one">%1$s फ़ोटो स्कैन करें</item>
+        <item quantity="other">%1$s फ़ोटो स्कैन करें</item>
+    </plurals>
+    <plurals name="settings_safety_flset_apps_locked">
+        <item quantity="one">%1$s ऐप लॉक है</item>
+        <item quantity="other">%1$s ऐप लॉक हैं</item>
+    </plurals>
+    <plurals name="settings_safety_photos_count_newest">
+        <item quantity="one">%1$s फ़ोटो · सबसे नई पहले</item>
+        <item quantity="other">%1$s फ़ोटो · सबसे नई पहले</item>
+    </plurals>
+    <plurals name="settings_safety_photos_pending">
+        <item quantity="one">%1$s फ़ोटो अभी जाँची नहीं गई (सबसे नई %2$s में ढूँढा जाता है)।</item>
+        <item quantity="other">%1$s फ़ोटो अभी जाँची नहीं गईं (सबसे नई %2$s में ढूँढा जाता है)।</item>
+    </plurals>
+    <plurals name="settings_safety_skills_available">
+        <item quantity="one">%1$s स्किल उपलब्ध है</item>
+        <item quantity="other">%1$s स्किल उपलब्ध हैं</item>
+    </plurals>
+    <plurals name="settings_safety_sos_bulk_added">
+        <item quantity="one">%1$s कॉन्टैक्ट पसंदीदा में जोड़ा गया। इसे SOS कॉन्टैक्ट बनाने के लिए उस पर एडिट दबाएँ।</item>
+        <item quantity="other">%1$s कॉन्टैक्ट पसंदीदा में जोड़े गए। किसी को SOS कॉन्टैक्ट बनाने के लिए उस पर एडिट दबाएँ।</item>
+    </plurals>
+    <plurals name="settings_safety_touchguard_photos_count">
+        <item quantity="one">%1$s फ़ोटो, एक-एक सेकंड के फ़ासले पर, किसी भी आवाज़ से पहले। Pictures/Maya में सेव होती है।</item>
+        <item quantity="other">%1$s फ़ोटो, एक-एक सेकंड के फ़ासले पर, किसी भी आवाज़ से पहले। Pictures/Maya में सेव होती हैं।</item>
+    </plurals>
+    <plurals name="settings_safety_watchman_alerts">
+        <item quantity="one">%1$s अलर्ट</item>
+        <item quantity="other">%1$s अलर्ट</item>
+    </plurals>
+    <plurals name="settings_safety_watchman_alerts_last">
+        <item quantity="one">%1$s अलर्ट · आख़िरी: %2$s</item>
+        <item quantity="other">%1$s अलर्ट · आख़िरी: %2$s</item>
+    </plurals>
+    <plurals name="settings_safety_watchman_faces">
+        <item quantity="one">%1$s चेहरा दिख रहा है</item>
+        <item quantity="other">%1$s चेहरे दिख रहे हैं</item>
+    </plurals>
+    <plurals name="settings_voice_diag_waiting">
+        <item quantity="one">%1$s आइटम भेजे जाने के इंतज़ार में है।</item>
+        <item quantity="other">%1$s आइटम भेजे जाने के इंतज़ार में हैं।</item>
+    </plurals>
+    <plurals name="settings_voice_episodic_entries">
+        <item quantity="one">%1$s एंट्री · %2$s KB</item>
+        <item quantity="other">%1$s एंट्रियाँ · %2$s KB</item>
+    </plurals>
+    <plurals name="settings_voice_free_used">
+        <item quantity="one">%1$s टेस्ट रिक्वेस्ट लगी</item>
+        <item quantity="other">%1$s टेस्ट रिक्वेस्ट लगीं</item>
+    </plurals>
+    <plurals name="settings_voice_guardian_suggest">
+        <item quantity="one">%1$s टेस्ट: %2$s–%3$s%%। सुझाई गई सख़्ती %4$s (आपकी %5$s है)</item>
+        <item quantity="other">%1$s टेस्ट: %2$s–%3$s%%। सुझाई गई सख़्ती %4$s (आपकी %5$s है)</item>
+    </plurals>
+    <plurals name="settings_voice_guardian_suggest_strict">
+        <item quantity="one">%1$s टेस्ट: %2$s–%3$s%%। सुझाई गई सख़्ती %4$s (आपकी %5$s है — थोड़ी सख़्त)</item>
+        <item quantity="other">%1$s टेस्ट: %2$s–%3$s%%। सुझाई गई सख़्ती %4$s (आपकी %5$s है — थोड़ी सख़्त)</item>
+    </plurals>
+    <plurals name="settings_voice_hunter_found_incomplete">
+        <item quantity="one">%1$s में एक वॉइस पैक पूरा नहीं है: उसकी %2$s फ़ाइल ग़ायब है।</item>
+        <item quantity="other">%1$s में एक वॉइस पैक पूरा नहीं है: उसकी %2$s फ़ाइलें ग़ायब हैं।</item>
+    </plurals>
+    <plurals name="settings_voice_mouth_lag_replies">
+        <item quantity="one">%1$s जवाब</item>
+        <item quantity="other">पिछले %1$s जवाब</item>
+    </plurals>
+    <plurals name="shell_chat_convo_meta">
+        <item quantity="one">%1$s · %2$s मैसेज</item>
+        <item quantity="other">%1$s · %2$s मैसेज</item>
+    </plurals>
+    <plurals name="shell_comp_engine_body">
+        <item quantity="one">Google का वॉइस सर्वर अभी बार-बार माया को गिरा रहा है। आपका नेटवर्क और फ़ोन ठीक हैं। %1$s मिनट के लिए बैकअप इंजन पर स्विच करें?</item>
+        <item quantity="other">Google का वॉइस सर्वर अभी बार-बार माया को गिरा रहा है। आपका नेटवर्क और फ़ोन ठीक हैं। %1$s मिनट के लिए बैकअप इंजन पर स्विच करें?</item>
+    </plurals>
+    <plurals name="shell_conn_days_ago">
+        <item quantity="one">%1$s दिन पहले</item>
+        <item quantity="other">%1$s दिन पहले</item>
+    </plurals>
+    <plurals name="shell_notices_count">
+        <item quantity="one">%1$s सूचना</item>
+        <item quantity="other">%1$s सूचनाएँ</item>
+    </plurals>
+    <plurals name="shell_notices_days_ago">
+        <item quantity="one">%1$s दिन पहले</item>
+        <item quantity="other">%1$s दिन पहले</item>
+    </plurals>
+    <plurals name="shell_notices_hours_ago">
+        <item quantity="one">%1$s घंटा पहले</item>
+        <item quantity="other">%1$s घंटे पहले</item>
+    </plurals>
+    <plurals name="shell_notices_minutes_ago">
+        <item quantity="one">%1$s मिनट पहले</item>
+        <item quantity="other">%1$s मिनट पहले</item>
+    </plurals>
+    <plurals name="shell_notices_weeks_ago">
+        <item quantity="one">%1$s हफ़्ता पहले</item>
+        <item quantity="other">%1$s हफ़्ते पहले</item>
+    </plurals>
+    <plurals name="shell_yaad_steps">
+        <item quantity="one">%1$s स्टेप</item>
+        <item quantity="other">%1$s स्टेप</item>
+    </plurals>
+    <plurals name="shell_yaad_wipe_body">
+        <item quantity="one">इससे वह %1$s बात हट जाएगी जो माया ने आपके बारे में सीखी है। आपके सिखाए टास्क बने रहेंगे।</item>
+        <item quantity="other">इससे वे सारी %1$s बातें हट जाएँगी जो माया ने आपके बारे में सीखी हैं। आपके सिखाए टास्क बने रहेंगे।</item>
+    </plurals>
+    <plurals name="shell_yaad_wipe_body_last">
+        <item quantity="one">आख़िरी मौका। आपकी %1$s याद चली जाएगी और माया बिल्कुल शुरू से शुरू करेगी। वापस चाहिए हो सकती है तो पहले बैकअप एक्सपोर्ट कर लें।</item>
+        <item quantity="other">आख़िरी मौका। सारी %1$s यादें चली जाएँगी और माया बिल्कुल शुरू से शुरू करेगी। वापस चाहिए हो सकती हैं तो पहले बैकअप एक्सपोर्ट कर लें।</item>
+    </plurals>
+    <plurals name="system_faces_photos_found">
+        <item quantity="one">गैलरी में %1$s फ़ोटो मिली</item>
+        <item quantity="other">गैलरी में %1$s फ़ोटो मिलीं</item>
+    </plurals>
+    <plurals name="system_mkt_followups_title">
+        <item quantity="one">%1$s फ़ॉलो-अप बाकी है</item>
+        <item quantity="other">%1$s फ़ॉलो-अप बाकी हैं</item>
+    </plurals>
+    <plurals name="system_mkt_ideas_title">
+        <item quantity="one">आज का %1$s कंटेंट आइडिया तैयार है</item>
+        <item quantity="other">आज के %1$s कंटेंट आइडिया तैयार हैं</item>
+    </plurals>
+    <plurals name="toolsui_code_file_count">
+        <item quantity="one">%1$s फ़ाइल</item>
+        <item quantity="other">%1$s फ़ाइलें</item>
+    </plurals>
+    <plurals name="toolsui_home_channels_n">
+        <item quantity="one">%1$s चैनल</item>
+        <item quantity="other">%1$s चैनल</item>
+    </plurals>
+    <plurals name="toolsui_market_alerts_armed">
+        <item quantity="one">%1$s अलर्ट लगा है</item>
+        <item quantity="other">%1$s अलर्ट लगे हैं</item>
+    </plurals>
+    <plurals name="toolsui_mkt_days_old">
+        <item quantity="one">%1$s दिन पुराना</item>
+        <item quantity="other">%1$s दिन पुराना</item>
+    </plurals>
+    <plurals name="toolsui_num_straddling">
+        <item quantity="one">%1$s एंट्री यहाँ नहीं गिनी गई — उसका समय इस अवधि के अंदर नहीं आता: %2$s</item>
+        <item quantity="other">%1$s एंट्री यहाँ नहीं गिनी गईं — उनका समय इस अवधि के अंदर नहीं आता: %2$s</item>
+    </plurals>
+    <plurals name="toolsui_sites_entries">
+        <item quantity="one">%1$s एंट्री</item>
+        <item quantity="other">%1$s एंट्री</item>
+    </plurals>
+    <plurals name="toolsui_sites_form_entries">
+        <item quantity="one">%1$s फ़ॉर्म एंट्री</item>
+        <item quantity="other">%1$s फ़ॉर्म एंट्री</item>
+    </plurals>
+    <plurals name="toolsui_time_days_ago">
+        <item quantity="one">%1$s दिन पहले</item>
+        <item quantity="other">%1$s दिन पहले</item>
+    </plurals>
+    <plurals name="toolsui_time_hours_ago">
+        <item quantity="one">%1$s घंटा पहले</item>
+        <item quantity="other">%1$s घंटे पहले</item>
+    </plurals>
+    <plurals name="toolsui_time_minutes_ago">
+        <item quantity="one">%1$s मिनट पहले</item>
+        <item quantity="other">%1$s मिनट पहले</item>
+    </plurals>
+</resources>

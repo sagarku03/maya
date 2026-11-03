@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="settings_core_adv_char_elsewhere">
+        <item quantity="one">%1$s ka bhi ek character hai. Dekhne ke liye Settings me persona badlo.</item>
+        <item quantity="other">%1$s ke bhi character hain. Dekhne ke liye Settings me persona badlo.</item>
+    </plurals>
+    <plurals name="settings_core_battery_line_proactive">
+        <item quantity="one">Proactive check-ins band, aur chup session zyada se zyada %1$s minute baad standby me chala jaata hai.</item>
+        <item quantity="other">Proactive check-ins band, aur chup session zyada se zyada %1$s minute baad standby me chala jaata hai.</item>
+    </plurals>
+    <plurals name="settings_safety_autoreply_summary_replies">
+        <item quantity="one">%1$s reply, %2$s insaan ko</item>
+        <item quantity="other">%1$s reply, %2$s logon ko</item>
+    </plurals>
+    <plurals name="settings_safety_backup_sharing">
+        <item quantity="one">%1$s item share ho raha hai…</item>
+        <item quantity="other">%1$s items share ho rahe hain…</item>
+    </plurals>
+    <plurals name="settings_safety_contacts_n_selected">
+        <item quantity="one">%1$s selected. Naye search me bhi selection bana rehta hai.</item>
+        <item quantity="other">%1$s selected. Naye search me bhi selection bana rehta hai.</item>
+    </plurals>
+    <plurals name="settings_safety_faces_pill_saved">
+        <item quantity="one">%1$s saved</item>
+        <item quantity="other">%1$s saved</item>
+    </plurals>
+    <plurals name="settings_safety_faces_views">
+        <item quantity="one">%1$s view</item>
+        <item quantity="other">%1$s views</item>
+    </plurals>
+    <plurals name="settings_safety_ffeat_gallery_count">
+        <item quantity="one">%1$s photo</item>
+        <item quantity="other">%1$s photos</item>
+    </plurals>
+    <plurals name="settings_safety_ffeat_gallery_scan">
+        <item quantity="one">%1$s photo scan karo</item>
+        <item quantity="other">%1$s photos scan karo</item>
+    </plurals>
+    <plurals name="settings_safety_flset_apps_locked">
+        <item quantity="one">%1$s app lock hai</item>
+        <item quantity="other">%1$s apps lock hain</item>
+    </plurals>
+    <plurals name="settings_safety_photos_count_newest">
+        <item quantity="one">%1$s photo · sabse nayi pehle</item>
+        <item quantity="other">%1$s photos · sabse nayi pehle</item>
+    </plurals>
+    <plurals name="settings_safety_photos_pending">
+        <item quantity="one">%1$s photo abhi check nahi hui (sabse nayi %2$s me dhoondha jata hai).</item>
+        <item quantity="other">%1$s photos abhi check nahi hui (sabse nayi %2$s me dhoondha jata hai).</item>
+    </plurals>
+    <plurals name="settings_safety_skills_available">
+        <item quantity="one">%1$s skill available hai</item>
+        <item quantity="other">%1$s skills available hain</item>
+    </plurals>
+    <plurals name="settings_safety_sos_bulk_added">
+        <item quantity="one">%1$s contact favorite me add hua. Kisi ko SOS contact banane ke liye uspe Edit dabao.</item>
+        <item quantity="other">%1$s contacts favorites me add hue. Kisi ko SOS contact banane ke liye uspe Edit dabao.</item>
+    </plurals>
+    <plurals name="settings_safety_touchguard_photos_count">
+        <item quantity="one">%1$s photo, ek-ek second ke gap pe, kisi bhi awaaz se pehle. Pictures/Maya me save hoti hai.</item>
+        <item quantity="other">%1$s photos, ek-ek second ke gap pe, kisi bhi awaaz se pehle. Pictures/Maya me save hoti hain.</item>
+    </plurals>
+    <plurals name="settings_safety_watchman_alerts">
+        <item quantity="one">%1$s alert</item>
+        <item quantity="other">%1$s alerts</item>
+    </plurals>
+    <plurals name="settings_safety_watchman_alerts_last">
+        <item quantity="one">%1$s alert · last: %2$s</item>
+        <item quantity="other">%1$s alerts · last: %2$s</item>
+    </plurals>
+    <plurals name="settings_safety_watchman_faces">
+        <item quantity="one">%1$s chehra dikh raha hai</item>
+        <item quantity="other">%1$s chehre dikh rahe hain</item>
+    </plurals>
+    <plurals name="settings_voice_diag_waiting">
+        <item quantity="one">%1$s item bhejne ke liye ruka hai.</item>
+        <item quantity="other">%1$s items bhejne ke liye ruke hain.</item>
+    </plurals>
+    <plurals name="settings_voice_episodic_entries">
+        <item quantity="one">%1$s entry · %2$s KB</item>
+        <item quantity="other">%1$s entries · %2$s KB</item>
+    </plurals>
+    <plurals name="settings_voice_free_used">
+        <item quantity="one">%1$s test request lagi</item>
+        <item quantity="other">%1$s test requests lagi</item>
+    </plurals>
+    <plurals name="settings_voice_guardian_suggest">
+        <item quantity="one">%1$s test: %2$s–%3$s%%. Suggested strictness %4$s (tumhari %5$s hai)</item>
+        <item quantity="other">%1$s tests: %2$s–%3$s%%. Suggested strictness %4$s (tumhari %5$s hai)</item>
+    </plurals>
+    <plurals name="settings_voice_guardian_suggest_strict">
+        <item quantity="one">%1$s test: %2$s–%3$s%%. Suggested strictness %4$s (tumhari %5$s hai — thodi sakht)</item>
+        <item quantity="other">%1$s tests: %2$s–%3$s%%. Suggested strictness %4$s (tumhari %5$s hai — thodi sakht)</item>
+    </plurals>
+    <plurals name="settings_voice_hunter_found_incomplete">
+        <item quantity="one">%1$s me ek voice pack poora nahi hai: uski %2$s file missing hai.</item>
+        <item quantity="other">%1$s me ek voice pack poora nahi hai: uski %2$s files missing hain.</item>
+    </plurals>
+    <plurals name="settings_voice_mouth_lag_replies">
+        <item quantity="one">%1$s reply</item>
+        <item quantity="other">pichhle %1$s replies</item>
+    </plurals>
+    <plurals name="shell_chat_convo_meta">
+        <item quantity="one">%1$s · %2$s message</item>
+        <item quantity="other">%1$s · %2$s messages</item>
+    </plurals>
+    <plurals name="shell_comp_engine_body">
+        <item quantity="one">Google ka voice server abhi baar baar Maya ko gira raha hai. Tumhara network aur phone theek hain. %1$s minute ke liye backup engine par switch karein?</item>
+        <item quantity="other">Google ka voice server abhi baar baar Maya ko gira raha hai. Tumhara network aur phone theek hain. %1$s minute ke liye backup engine par switch karein?</item>
+    </plurals>
+    <plurals name="shell_conn_days_ago">
+        <item quantity="one">%1$s din pehle</item>
+        <item quantity="other">%1$s din pehle</item>
+    </plurals>
+    <plurals name="shell_notices_count">
+        <item quantity="one">%1$s notification</item>
+        <item quantity="other">%1$s notifications</item>
+    </plurals>
+    <plurals name="shell_notices_days_ago">
+        <item quantity="one">%1$s din pehle</item>
+        <item quantity="other">%1$s din pehle</item>
+    </plurals>
+    <plurals name="shell_notices_hours_ago">
+        <item quantity="one">%1$s ghanta pehle</item>
+        <item quantity="other">%1$s ghante pehle</item>
+    </plurals>
+    <plurals name="shell_notices_minutes_ago">
+        <item quantity="one">%1$s min pehle</item>
+        <item quantity="other">%1$s min pehle</item>
+    </plurals>
+    <plurals name="shell_notices_weeks_ago">
+        <item quantity="one">%1$s hafta pehle</item>
+        <item quantity="other">%1$s hafte pehle</item>
+    </plurals>
+    <plurals name="shell_yaad_steps">
+        <item quantity="one">%1$s step</item>
+        <item quantity="other">%1$s steps</item>
+    </plurals>
+    <plurals name="shell_yaad_wipe_body">
+        <item quantity="one">Isse wo %1$s baat delete ho jayegi jo Maya ne tumhare baare me seekhi hai. Tumhare trained tasks bache rahenge.</item>
+        <item quantity="other">Isse wo saari %1$s baatein delete ho jayengi jo Maya ne tumhare baare me seekhi hain. Tumhare trained tasks bache rahenge.</item>
+    </plurals>
+    <plurals name="shell_yaad_wipe_body_last">
+        <item quantity="one">Aakhri mauka. Tumhari %1$s yaad chali jayegi aur Maya bilkul shuru se shuru karegi. Wapas chahiye ho sakti hai to pehle backup export kar lo.</item>
+        <item quantity="other">Aakhri mauka. Saari %1$s yaadein chali jayengi aur Maya bilkul shuru se shuru karegi. Wapas chahiye ho sakti hain to pehle backup export kar lo.</item>
+    </plurals>
+    <plurals name="system_faces_photos_found">
+        <item quantity="one">Gallery me %1$s photo mili</item>
+        <item quantity="other">Gallery me %1$s photos mili</item>
+    </plurals>
+    <plurals name="system_mkt_followups_title">
+        <item quantity="one">%1$s follow-up due hai</item>
+        <item quantity="other">%1$s follow-ups due hain</item>
+    </plurals>
+    <plurals name="system_mkt_ideas_title">
+        <item quantity="one">Aaj ka %1$s content idea ready hai</item>
+        <item quantity="other">Aaj ke %1$s content ideas ready hain</item>
+    </plurals>
+    <plurals name="toolsui_code_file_count">
+        <item quantity="one">%1$s file</item>
+        <item quantity="other">%1$s files</item>
+    </plurals>
+    <plurals name="toolsui_home_channels_n">
+        <item quantity="one">%1$s channel</item>
+        <item quantity="other">%1$s channels</item>
+    </plurals>
+    <plurals name="toolsui_market_alerts_armed">
+        <item quantity="one">%1$s alert laga hai</item>
+        <item quantity="other">%1$s alert lage hain</item>
+    </plurals>
+    <plurals name="toolsui_mkt_days_old">
+        <item quantity="one">%1$s din purana</item>
+        <item quantity="other">%1$s din purana</item>
+    </plurals>
+    <plurals name="toolsui_num_straddling">
+        <item quantity="one">%1$s entry yahan count nahi hui — uska period is period ke andar fit nahi hota: %2$s</item>
+        <item quantity="other">%1$s entries yahan count nahi hui — unke period is period ke andar fit nahi hote: %2$s</item>
+    </plurals>
+    <plurals name="toolsui_sites_entries">
+        <item quantity="one">%1$s entry</item>
+        <item quantity="other">%1$s entries</item>
+    </plurals>
+    <plurals name="toolsui_sites_form_entries">
+        <item quantity="one">%1$s form entry</item>
+        <item quantity="other">%1$s form entries</item>
+    </plurals>
+    <plurals name="toolsui_time_days_ago">
+        <item quantity="one">%1$s din pehle</item>
+        <item quantity="other">%1$s din pehle</item>
+    </plurals>
+    <plurals name="toolsui_time_hours_ago">
+        <item quantity="one">%1$s ghanta pehle</item>
+        <item quantity="other">%1$s ghante pehle</item>
+    </plurals>
+    <plurals name="toolsui_time_minutes_ago">
+        <item quantity="one">%1$s minute pehle</item>
+        <item quantity="other">%1$s minute pehle</item>
+    </plurals>
+</resources>

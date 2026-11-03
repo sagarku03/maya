@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="settings_core_adv_char_elsewhere">
+        <item quantity="one">%1$s-এরও একটি ক্যারেক্টার আছে। দেখতে সেটিংসে পারসোনা বদলান।</item>
+        <item quantity="other">%1$s-এরও ক্যারেক্টার আছে। দেখতে সেটিংসে পারসোনা বদলান।</item>
+    </plurals>
+    <plurals name="settings_core_battery_line_proactive">
+        <item quantity="one">নিজে থেকে খোঁজ নেওয়া বন্ধ, আর চুপচাপ সেশন বড়জোর %1$s মিনিট পরে স্ট্যান্ডবাইতে যায়।</item>
+        <item quantity="other">নিজে থেকে খোঁজ নেওয়া বন্ধ, আর চুপচাপ সেশন বড়জোর %1$s মিনিট পরে স্ট্যান্ডবাইতে যায়।</item>
+    </plurals>
+    <plurals name="settings_safety_autoreply_summary_replies">
+        <item quantity="one">%2$s জনকে %1$sটি উত্তর</item>
+        <item quantity="other">%2$s জনকে %1$sটি উত্তর</item>
+    </plurals>
+    <plurals name="settings_safety_backup_sharing">
+        <item quantity="one">%1$sটি আইটেম শেয়ার হচ্ছে…</item>
+        <item quantity="other">%1$sটি আইটেম শেয়ার হচ্ছে…</item>
+    </plurals>
+    <plurals name="settings_safety_contacts_n_selected">
+        <item quantity="one">%1$sটি বাছা হয়েছে। নতুন করে খুঁজলেও বাছাই থেকে যায়।</item>
+        <item quantity="other">%1$sটি বাছা হয়েছে। নতুন করে খুঁজলেও বাছাই থেকে যায়।</item>
+    </plurals>
+    <plurals name="settings_safety_faces_pill_saved">
+        <item quantity="one">%1$sজন সেভ করা</item>
+        <item quantity="other">%1$sজন সেভ করা</item>
+    </plurals>
+    <plurals name="settings_safety_faces_views">
+        <item quantity="one">%1$sটি ভিউ</item>
+        <item quantity="other">%1$sটি ভিউ</item>
+    </plurals>
+    <plurals name="settings_safety_ffeat_gallery_count">
+        <item quantity="one">%1$sটি ছবি</item>
+        <item quantity="other">%1$sটি ছবি</item>
+    </plurals>
+    <plurals name="settings_safety_ffeat_gallery_scan">
+        <item quantity="one">%1$sটি ছবি স্ক্যান করুন</item>
+        <item quantity="other">%1$sটি ছবি স্ক্যান করুন</item>
+    </plurals>
+    <plurals name="settings_safety_flset_apps_locked">
+        <item quantity="one">%1$sটি অ্যাপ লক করা আছে</item>
+        <item quantity="other">%1$sটি অ্যাপ লক করা আছে</item>
+    </plurals>
+    <plurals name="settings_safety_photos_count_newest">
+        <item quantity="one">%1$sটি ছবি · নতুনগুলো আগে</item>
+        <item quantity="other">%1$sটি ছবি · নতুনগুলো আগে</item>
+    </plurals>
+    <plurals name="settings_safety_photos_pending">
+        <item quantity="one">%1$sটি ছবি এখনো দেখা হয়নি (সবচেয়ে নতুন %2$sটিতে খোঁজা হয়)।</item>
+        <item quantity="other">%1$sটি ছবি এখনো দেখা হয়নি (সবচেয়ে নতুন %2$sটিতে খোঁজা হয়)।</item>
+    </plurals>
+    <plurals name="settings_safety_skills_available">
+        <item quantity="one">%1$sটি স্কিল পাওয়া যাচ্ছে</item>
+        <item quantity="other">%1$sটি স্কিল পাওয়া যাচ্ছে</item>
+    </plurals>
+    <plurals name="settings_safety_sos_bulk_added">
+        <item quantity="one">%1$sটি কনট্যাক্ট প্রিয় হিসেবে যোগ হয়েছে। SOS কনট্যাক্ট বানাতে সেটার ওপর এডিট চাপুন।</item>
+        <item quantity="other">%1$sটি কনট্যাক্ট প্রিয় হিসেবে যোগ হয়েছে। SOS কনট্যাক্ট বানাতে যেকোনোটার ওপর এডিট চাপুন।</item>
+    </plurals>
+    <plurals name="settings_safety_touchguard_photos_count">
+        <item quantity="one">%1$sটি ছবি, এক সেকেন্ড পরপর, কোনো আওয়াজের আগেই তোলা হয়। Pictures/Maya-তে সেভ হয়।</item>
+        <item quantity="other">%1$sটি ছবি, এক সেকেন্ড পরপর, কোনো আওয়াজের আগেই তোলা হয়। Pictures/Maya-তে সেভ হয়।</item>
+    </plurals>
+    <plurals name="settings_safety_watchman_alerts">
+        <item quantity="one">%1$sটি অ্যালার্ট</item>
+        <item quantity="other">%1$sটি অ্যালার্ট</item>
+    </plurals>
+    <plurals name="settings_safety_watchman_alerts_last">
+        <item quantity="one">%1$sটি অ্যালার্ট · শেষটা: %2$s</item>
+        <item quantity="other">%1$sটি অ্যালার্ট · শেষটা: %2$s</item>
+    </plurals>
+    <plurals name="settings_safety_watchman_faces">
+        <item quantity="one">%1$sটি মুখ দেখা যাচ্ছে</item>
+        <item quantity="other">%1$sটি মুখ দেখা যাচ্ছে</item>
+    </plurals>
+    <plurals name="settings_voice_diag_waiting">
+        <item quantity="one">%1$sটা জিনিস পাঠানোর অপেক্ষায়।</item>
+        <item quantity="other">%1$sটা জিনিস পাঠানোর অপেক্ষায়।</item>
+    </plurals>
+    <plurals name="settings_voice_episodic_entries">
+        <item quantity="one">%1$sটা এন্ট্রি · %2$s KB</item>
+        <item quantity="other">%1$sটা এন্ট্রি · %2$s KB</item>
+    </plurals>
+    <plurals name="settings_voice_free_used">
+        <item quantity="one">%1$sটা টেস্ট রিকোয়েস্ট লেগেছে</item>
+        <item quantity="other">%1$sটা টেস্ট রিকোয়েস্ট লেগেছে</item>
+    </plurals>
+    <plurals name="settings_voice_guardian_suggest">
+        <item quantity="one">%1$sটা টেস্ট: %2$s–%3$s%%। কড়াকড়ি %4$s রাখার পরামর্শ (আপনারটা %5$s)</item>
+        <item quantity="other">%1$sটা টেস্ট: %2$s–%3$s%%। কড়াকড়ি %4$s রাখার পরামর্শ (আপনারটা %5$s)</item>
+    </plurals>
+    <plurals name="settings_voice_guardian_suggest_strict">
+        <item quantity="one">%1$sটা টেস্ট: %2$s–%3$s%%। কড়াকড়ি %4$s রাখার পরামর্শ (আপনারটা %5$s — একটু কড়া)</item>
+        <item quantity="other">%1$sটা টেস্ট: %2$s–%3$s%%। কড়াকড়ি %4$s রাখার পরামর্শ (আপনারটা %5$s — একটু কড়া)</item>
+    </plurals>
+    <plurals name="settings_voice_hunter_found_incomplete">
+        <item quantity="one">%1$s-এ একটা ভয়েস প্যাক সম্পূর্ণ নয়: এর %2$sটা ফাইল নেই।</item>
+        <item quantity="other">%1$s-এ একটা ভয়েস প্যাক সম্পূর্ণ নয়: এর %2$sটা ফাইল নেই।</item>
+    </plurals>
+    <plurals name="settings_voice_mouth_lag_replies">
+        <item quantity="one">%1$sটা রিপ্লাই</item>
+        <item quantity="other">শেষ %1$sটা রিপ্লাই</item>
+    </plurals>
+    <plurals name="shell_chat_convo_meta">
+        <item quantity="one">%1$s · %2$sটি মেসেজ</item>
+        <item quantity="other">%1$s · %2$sটি মেসেজ</item>
+    </plurals>
+    <plurals name="shell_comp_engine_body">
+        <item quantity="one">Google-এর ভয়েস সার্ভার এখন বারবার মায়াকে ফেলে দিচ্ছে। আপনার নেটওয়ার্ক আর ফোন ঠিক আছে। %1$s মিনিটের জন্য ব্যাকআপ ইঞ্জিনে যাবেন?</item>
+        <item quantity="other">Google-এর ভয়েস সার্ভার এখন বারবার মায়াকে ফেলে দিচ্ছে। আপনার নেটওয়ার্ক আর ফোন ঠিক আছে। %1$s মিনিটের জন্য ব্যাকআপ ইঞ্জিনে যাবেন?</item>
+    </plurals>
+    <plurals name="shell_conn_days_ago">
+        <item quantity="one">%1$s দিন আগে</item>
+        <item quantity="other">%1$s দিন আগে</item>
+    </plurals>
+    <plurals name="shell_notices_count">
+        <item quantity="one">%1$sটি নোটিফিকেশন</item>
+        <item quantity="other">%1$sটি নোটিফিকেশন</item>
+    </plurals>
+    <plurals name="shell_notices_days_ago">
+        <item quantity="one">%1$s দিন আগে</item>
+        <item quantity="other">%1$s দিন আগে</item>
+    </plurals>
+    <plurals name="shell_notices_hours_ago">
+        <item quantity="one">%1$s ঘণ্টা আগে</item>
+        <item quantity="other">%1$s ঘণ্টা আগে</item>
+    </plurals>
+    <plurals name="shell_notices_minutes_ago">
+        <item quantity="one">%1$s মিনিট আগে</item>
+        <item quantity="other">%1$s মিনিট আগে</item>
+    </plurals>
+    <plurals name="shell_notices_weeks_ago">
+        <item quantity="one">%1$s সপ্তাহ আগে</item>
+        <item quantity="other">%1$s সপ্তাহ আগে</item>
+    </plurals>
+    <plurals name="shell_yaad_steps">
+        <item quantity="one">%1$sটি ধাপ</item>
+        <item quantity="other">%1$sটি ধাপ</item>
+    </plurals>
+    <plurals name="shell_yaad_wipe_body">
+        <item quantity="one">এতে মায়া আপনার সম্পর্কে যে %1$sটি কথা শিখেছে তা মুছে যাবে। আপনার শেখানো কাজগুলো থেকে যাবে।</item>
+        <item quantity="other">এতে মায়া আপনার সম্পর্কে যে %1$sটি কথা শিখেছে সব মুছে যাবে। আপনার শেখানো কাজগুলো থেকে যাবে।</item>
+    </plurals>
+    <plurals name="shell_yaad_wipe_body_last">
+        <item quantity="one">শেষ সুযোগ। আপনার %1$sটি স্মৃতি মুছে যাবে আর মায়া একদম শূন্য থেকে শুরু করবে। পরে ফেরত চাইতে পারেন মনে হলে আগে ব্যাকআপ এক্সপোর্ট করে নিন।</item>
+        <item quantity="other">শেষ সুযোগ। সব %1$sটি স্মৃতি মুছে যাবে আর মায়া একদম শূন্য থেকে শুরু করবে। পরে ফেরত চাইতে পারেন মনে হলে আগে ব্যাকআপ এক্সপোর্ট করে নিন।</item>
+    </plurals>
+    <plurals name="system_faces_photos_found">
+        <item quantity="one">গ্যালারিতে %1$sটি ছবি পাওয়া গেছে</item>
+        <item quantity="other">গ্যালারিতে %1$sটি ছবি পাওয়া গেছে</item>
+    </plurals>
+    <plurals name="system_mkt_followups_title">
+        <item quantity="one">%1$sটি ফলো-আপ বাকি</item>
+        <item quantity="other">%1$sটি ফলো-আপ বাকি</item>
+    </plurals>
+    <plurals name="system_mkt_ideas_title">
+        <item quantity="one">আজকের %1$sটি কনটেন্ট আইডিয়া তৈরি</item>
+        <item quantity="other">আজকের %1$sটি কনটেন্ট আইডিয়া তৈরি</item>
+    </plurals>
+    <plurals name="toolsui_code_file_count">
+        <item quantity="one">%1$sটি ফাইল</item>
+        <item quantity="other">%1$sটি ফাইল</item>
+    </plurals>
+    <plurals name="toolsui_home_channels_n">
+        <item quantity="one">%1$sটি চ্যানেল</item>
+        <item quantity="other">%1$sটি চ্যানেল</item>
+    </plurals>
+    <plurals name="toolsui_market_alerts_armed">
+        <item quantity="one">%1$sটি অ্যালার্ট চালু</item>
+        <item quantity="other">%1$sটি অ্যালার্ট চালু</item>
+    </plurals>
+    <plurals name="toolsui_mkt_days_old">
+        <item quantity="one">%1$s দিন পুরোনো</item>
+        <item quantity="other">%1$s দিন পুরোনো</item>
+    </plurals>
+    <plurals name="toolsui_num_straddling">
+        <item quantity="one">%1$sটি এন্ট্রি এখানে গোনা হয়নি — তার সময়কাল এই সময়ের মধ্যে পড়ে না: %2$s</item>
+        <item quantity="other">%1$sটি এন্ট্রি এখানে গোনা হয়নি — সেগুলোর সময়কাল এই সময়ের মধ্যে পড়ে না: %2$s</item>
+    </plurals>
+    <plurals name="toolsui_sites_entries">
+        <item quantity="one">%1$sটি এন্ট্রি</item>
+        <item quantity="other">%1$sটি এন্ট্রি</item>
+    </plurals>
+    <plurals name="toolsui_sites_form_entries">
+        <item quantity="one">%1$sটি ফর্ম এন্ট্রি</item>
+        <item quantity="other">%1$sটি ফর্ম এন্ট্রি</item>
+    </plurals>
+    <plurals name="toolsui_time_days_ago">
+        <item quantity="one">%1$s দিন আগে</item>
+        <item quantity="other">%1$s দিন আগে</item>
+    </plurals>
+    <plurals name="toolsui_time_hours_ago">
+        <item quantity="one">%1$s ঘণ্টা আগে</item>
+        <item quantity="other">%1$s ঘণ্টা আগে</item>
+    </plurals>
+    <plurals name="toolsui_time_minutes_ago">
+        <item quantity="one">%1$s মিনিট আগে</item>
+        <item quantity="other">%1$s মিনিট আগে</item>
+    </plurals>
+</resources>
